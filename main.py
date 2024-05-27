@@ -6,7 +6,7 @@ from newspaper import Article
 import nltk
 
 nltk.download("punkt")
-streamlit.set_page_config(page_title='News Galaxy - Get Summary of News')
+streamlit.set_page_config(page_title='News Galaxy ')
 
 
 def fetch_news(endpoint):
